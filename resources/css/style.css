@@ -1,0 +1,119 @@
+html,
+body {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Navigation */
+.logo {
+  display: flex;
+  align-content: center;
+  text-align: right;
+  background-color: white;
+  justify-content: space-between;
+  height: 2.8rem;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  margin-right: 0.43rem;
+  align-items: center;
+}
+
+.banner {
+  display: inline-flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+}
+
+.menu {
+  margin: 0;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+  margin-right: 20px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 0.6666rem;
+  font-size: 1rem;
+  color: #525252;
+}
+
+
+#colmarlogo {
+  height: 2.3rem;
+  width: auto;
+  margin: 16px 0 16px 15px;
+}
+
+#banner1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #525252;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#banner2 {
+  color: #acacac;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3rem;
+}
+
+/* Learn Something */
+
+.learnsmth {
+  background-color: #d9d9d9;
+  position: relative;
+  top: 2.666rem;
+  display: flex;
+}
+
+.introtext {
+  margin-left: 32px;
+  width: 40%;
+  display: block;
+  align-self: center;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.introtext h1 {
+  font-family: 'Work Sans', sans-serif;
+  color: #525252;
+}
+
+.introtext p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.09rem;
+  font-weight: 500;
+  color: #525252;
+}
+
+.starthere {
+  position: relative;
+  top: 10px;
+  }
+
+.starthere p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  color: white;
+  background-color: #525252;
+  width: 69%;
+  line-height: 1.666rem;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#introimg {
+  width: 60%;
+  height: auto;
+  padding: 1.4rem 1rem 1.333rem;
+}
