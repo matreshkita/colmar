@@ -116,7 +116,6 @@ padding-right: 1rem;
 }
 
 .introtext {
-
   width: 50%;
   display: block;
   align-self: center;
@@ -129,7 +128,7 @@ padding-right: 1rem;
 .introtext h1 {
   font-family: 'Work Sans', sans-serif;
   color: #525252;
-  width: 65%;
+  width: 75%;
   font-size: 3vw;
 }
 
@@ -138,14 +137,14 @@ padding-right: 1rem;
   font-size: 1.09rem;
   font-weight: 500;
   color: #525252;
-  width: 65%;
+  width: 75%;
   font-size: 2vw;
 }
 
 .starthere {
   position: relative;
   top: 10px;
-  width: 65%;
+  width: 75%;
   }
 
 .starthere p {
@@ -163,12 +162,12 @@ padding-right: 1rem;
 }
 
 .imgmain {
-  width: 70%;
+  width: 69.1%;
   height: auto;
-  padding: 1.4rem 1rem 1.333rem;
+  padding: 1.4rem 1rem;
   }
 
-  @media only screen and (max-width: 460px) {
+@media only screen and (max-width: 765px) {
     .learnsmth {
     width: 100%;
     display: block;
@@ -221,4 +220,90 @@ padding-right: 1rem;
 #introimg {
    width: 100%;
    height: auto;
+}
+
+/* News */
+#orienmob,
+#campusmob,
+#guestmob {
+   display: none;
+}
+
+.news {
+  display: flex;
+  position: relative;
+  top: 2.7rem;
+}
+
+.leftnews {
+  width: 55.5%;
+  height: auto;
+  padding: 1.4rem 1rem;
+  border-right: 1px groove #d9d9d9;
+}
+
+.leftnews img {
+  width: 99.5%;
+    }
+
+
+.leftnews h2 {
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3vw;
+  color: #525252;
+}
+
+.leftnews p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vw;
+  color: #525252;
+}
+
+#quote {
+  padding-top: 2rem;
+  font-size: 1vw;
+  font-family: Helvetica, sans-serif;
+  color: #525252;
+}
+
+.rightnews {
+  width: 40%;
+  position: relative;
+  top: 0.9rem;
+}
+
+.rightnews h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #525252;
+  font-size: 1.5vw;
+}
+
+.rightnews p {
+  font-family: 'Poppins', sans-serif;
+  color: #525252;
+  font-size: 1vw;
+}
+
+.column {
+  padding: 0 2rem 0 0;
+}
+
+.orientation,
+.campus {
+  border-bottom: 1px groove #d9d9d9;
+}
+
+.orientation,
+.campus,
+.guest {
+  display: flex;
+  padding: 12px;
+}
+
+.rightnews img {
+  min-width: 35%;
+  max-width: 35%;
+  height: auto;
+  margin-right: 1rem;
 }
