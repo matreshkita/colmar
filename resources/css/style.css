@@ -2,9 +2,10 @@ html,
 body {
   font-size: 24px;
   margin: 0;
+  width: 100%;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 800px) {
   .body {
     width: 100%;
     height: auto;
@@ -240,7 +241,6 @@ padding-right: 1rem;
   height: auto;
   padding: 1.4rem 1rem;
   border-right: 1px groove #d9d9d9;
-  height: auto;
 }
 
 .leftnews img {
