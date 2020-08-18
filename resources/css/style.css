@@ -199,22 +199,21 @@ padding-right: 1rem;
      .introtext h1 {
         width: 80%;
         font-size: 1.7rem;
-        padding-left: 0.2rem;
+        padding-left: 1rem;
        }
 
        .introtext p {
           width: 80%;
           font-size: 1rem;
-          padding-left: 0.2rem;
+          padding-left: 1rem;
          }
 
 
     .starthere p {
     width: 100%;
-    margin-left: 0.2rem;
-    padding-top: 8px;
-    padding-bottom: 8px;
     background-color: #acacac;
+    margin-left: 1rem;
+    padding: 8px 1.2rem;
     }
   }
 
