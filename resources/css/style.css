@@ -240,6 +240,7 @@ padding-right: 1rem;
   height: auto;
   padding: 1.4rem 1rem;
   border-right: 1px groove #d9d9d9;
+  height: auto;
 }
 
 .leftnews img {
@@ -297,13 +298,21 @@ padding-right: 1rem;
 .orientation,
 .campus,
 .guest {
+  height: auto;
+  width: 100%;
   display: flex;
   padding: 12px;
 }
 
 .rightnews img {
-  min-width: 35%;
-  max-width: 35%;
-  height: auto;
+  width: 35%;
+  height: 35%;
   margin-right: 1rem;
+}
+
+#orienbig,
+#campusbig,
+#guestbig {
+   height: 35%;
+   width: 35%;
 }
