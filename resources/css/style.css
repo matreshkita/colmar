@@ -77,7 +77,7 @@ header .mobile {
 }
 
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 800px) {
   header .menu,
   #banner1,
   #banner2 {
@@ -316,3 +316,60 @@ padding-right: 1rem;
    height: 35%;
    width: 35%;
 }
+
+@media only screen and (max-width: 800px) {
+  .leftnews,
+  #orienbig,
+  #campusbig,
+  #guestbig {
+    display: none;
+  }
+
+  .rightnews {
+    width: 100%;
+  }
+
+  .orientation,
+  .campus,
+  .guest {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: none;
+  }
+
+  .column {
+  margin: 0 0 0 32px;
+  padding: 0;
+    }
+
+    .rightnews h4 {
+      font-size: 0.7rem;
+      margin: 16px 0 0 0;
+      padding: 0;
+    }
+
+    .rightnews p {
+      font-size: 0.5rem;
+      padding-bottom: 5px;
+      max-width: 94%;
+    }
+
+  #orienmob,
+  #campusmob,
+  #guestmob {
+     display: flex;
+     flex-direction: column;
+     width: 94%;
+     padding: 0 12px;
+  }
+}
+
+/* Start Learning */
+
+.startlearning {
+   position: relative;
+   top: 2.8rem;
+  }
