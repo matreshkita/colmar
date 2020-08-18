@@ -4,8 +4,15 @@ body {
   margin: 0;
 }
 
+@media only screen and (max-width: 460px) {
+  .body {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /* Navigation */
-.logo {
+header {
   display: flex;
   align-content: center;
   text-align: right;
@@ -64,6 +71,41 @@ li {
   font-size: 1.3rem;
 }
 
+header .mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 460px) {
+  header .menu,
+  #banner1,
+  #banner2 {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+    padding-right: 2rem;
+  }
+
+#signin {
+padding-right: 1rem;
+}
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
+}
+
+
 /* Learn Something */
 
 .learnsmth {
@@ -74,7 +116,7 @@ li {
 }
 
 .introtext {
-  margin-left: 32px;
+  padding-left: 32px;
   width: 40%;
   display: block;
   align-self: center;
@@ -86,6 +128,7 @@ li {
 .introtext h1 {
   font-family: 'Work Sans', sans-serif;
   color: #525252;
+  width: 100%;
 }
 
 .introtext p {
@@ -93,11 +136,13 @@ li {
   font-size: 1.09rem;
   font-weight: 500;
   color: #525252;
+  width: 100%;
 }
 
 .starthere {
   position: relative;
   top: 10px;
+  width: 100%;
   }
 
 .starthere p {
@@ -112,8 +157,60 @@ li {
   padding-bottom: 8px;
 }
 
-#introimg {
+.imgmain {
   width: 60%;
   height: auto;
   padding: 1.4rem 1rem 1.333rem;
+  }
+
+  @media only screen and (max-width: 460px) {
+    .learnsmth {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+
+    }
+    .imgmain {
+      padding: 0;
+      margin: 0;
+        width: 100%;
+        height: auto;
+      }
+
+      #introimg {
+        padding: 0;
+        margin: 0;
+         width: 100%;
+         height: auto;
+      }
+   .introtext {
+      width: 100%;
+      margin: 0;
+      padding: 1rem;
+      justify-content: center;
+     }
+
+     .introtext h1 {
+        width: 89%;
+        font-size: 1.7rem;
+       }
+
+       .introtext p {
+          width: 89%;
+          font-size: 1rem;
+         }
+
+    .starthere p {
+    width: 89%;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #acacac;
+    }
+  }
+
+#introimg {
+   width: 100%;
+   height: auto;
 }
