@@ -2,6 +2,7 @@ html,
 body {
   font-size: 24px;
   margin: 0;
+    background-color: #ebeced;
 }
 
 @media only screen and (max-width: 800px) {
@@ -273,13 +274,15 @@ padding-right: 1rem;
   top: 0.9rem;
 }
 
-.rightnews h4 {
+.rightnews h4,
+.rightblock h4 {
   font-family: 'Poppins', sans-serif;
   color: #525252;
   font-size: 1rem;
 }
 
-.rightnews p {
+.rightnews p,
+.rightblock p {
   font-family: 'Poppins', sans-serif;
   color: #525252;
   font-size: 0.7rem;
@@ -370,7 +373,7 @@ padding-right: 1rem;
 
 .startlearning {
    position: relative;
-   top: 2.9rem;
+   top: 2.7rem;
    background-color: #d9d9d9;
   }
 
@@ -381,7 +384,8 @@ padding-right: 1rem;
     align-content: center;
   }
 
-.startlearning h2 {
+.startlearning h2,
+.videoblock h2 {
    text-align: center;
    padding-top: 1.333rem;
    font-family: 'Work Sans', sans-serif;
@@ -396,7 +400,8 @@ padding-right: 1rem;
    margin-top: 0.2rem;
   }
 
-.startlearning h4 {
+.startlearning h4,
+.leftblock h4 {
    font-family: 'Poppins', sans-serif;
    color: #525252;
    font-size: 1rem;
@@ -425,3 +430,76 @@ padding-right: 1rem;
 .courses img {
   max-width: 100%;
   }
+
+
+/* Thesis */
+
+.videoblock {
+     position: relative;
+     top: 1.5rem;
+     padding-bottom: 1.333rem;
+     }
+
+.media {
+    display: flex;
+}
+
+.leftblock {
+  width: 60%;
+  padding: 0 1rem;
+  }
+
+.videocomment {
+  width: 95%;
+  padding: 1rem 0;
+  }
+
+.leftblock p {
+     font-family: 'Poppins', sans-serif;
+     font-size: 0.7rem;
+     padding: 0;
+     margin-top: 0.2rem;
+     color: #525252;
+    }
+
+.rightblock {
+  width: 40%;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.fisma,
+.newyork {
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding: 0 0 1rem;
+}
+
+.rightblock img {
+  width: 35%;
+  height: 35%;
+}
+
+
+/* Footer */
+footer {
+    border-top: 1px groove #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.5rem;
+}
+
+.terms {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.terms p,
+.copyright p {
+    padding: 0 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+    color: #525252;
+}
