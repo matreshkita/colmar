@@ -447,6 +447,7 @@ padding-right: 1rem;
     background-color: #ebeced;
     border: 1px groove #d9d9d9;
     position: relative;
+    padding-bottom: 1rem;
   }
 
 .startmobile {
@@ -468,6 +469,8 @@ justify-content: center;
   }
 
 /* Thesis */
+
+
 
 .videoblock {
      position: relative;
@@ -516,6 +519,22 @@ justify-content: center;
   height: 35%;
 }
 
+@media only screen and (max-width: 800px) {
+  .videocomment,
+  .rightblock {
+    display: none;
+  }
+
+  .leftblock {
+    width: 100%;
+    margin-bottom: 0.666rem;
+    padding: 0;
+  }
+
+  video {
+    width: 100%;
+  }
+}
 
 /* Footer */
 footer {
@@ -537,4 +556,14 @@ footer {
     font-size: 0.6rem;
     margin-top: 0.2rem;
     color: #525252;
+}
+
+@media only screen and (max-width: 800px) {
+  .terms {
+    display: none;
+    }
+
+footer {
+   padding-top: 1.333rem;
+   }
 }
