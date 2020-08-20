@@ -371,6 +371,10 @@ padding-right: 1rem;
 
 /* Start Learning */
 
+.startmobile {
+  display: none;
+}
+
 .startlearning {
    position: relative;
    top: 2.7rem;
@@ -402,6 +406,7 @@ padding-right: 1rem;
 
 .startlearning h4,
 .leftblock h4 {
+
    font-family: 'Poppins', sans-serif;
    color: #525252;
    font-size: 1rem;
@@ -431,6 +436,36 @@ padding-right: 1rem;
   max-width: 100%;
   }
 
+  @media only screen and (max-width: 800px) {
+    .courses {
+      display: none;
+    }
+
+  .startlearning {
+    margin-top: 1rem;
+    padding-top: 0;
+    background-color: #ebeced;
+    border: 1px groove #d9d9d9;
+    position: relative;
+  }
+
+.startmobile {
+display: block;
+align-content: center;
+justify-content: center;
+}
+
+    .startmobile p {
+       font-family: 'Poppins', sans-serif;
+       color: #525252;
+       font-size: 1rem;
+       padding: 0.7rem 1rem;
+       margin: 0.2rem 1rem 0.8rem;
+       font-weight: 500;
+       background-color: #d9d9d9;
+      }
+
+  }
 
 /* Thesis */
 
