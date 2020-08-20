@@ -478,6 +478,11 @@ justify-content: center;
      padding-bottom: 1.333rem;
      }
 
+     video {
+       max-width: 100%;
+       height: auto;
+   }
+
 .media {
     display: flex;
 }
@@ -532,7 +537,9 @@ justify-content: center;
   }
 
   video {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
   }
 }
 
